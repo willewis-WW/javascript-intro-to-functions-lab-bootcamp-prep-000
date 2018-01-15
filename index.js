@@ -24,11 +24,11 @@ function sayHiToGrandma(string) {
   var response3 = 'I love you, too.'
   
   if (string.toLowerCase() === string) {
-    console.log(response1)
+    return response1
   } else if (string.toUpperCase() === string) {
-    console.log(response2)
+    return response2
   } else if (string === 'I love you, Grandma.') {
-    console.log(response3)
+    return response3
   } else {
     return
   }
