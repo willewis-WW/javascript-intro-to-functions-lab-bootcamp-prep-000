@@ -33,17 +33,3 @@ function sayHiToGrandma(string) {
     return
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
